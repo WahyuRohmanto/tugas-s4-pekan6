@@ -7,7 +7,7 @@ function Movies() {
   const [movies, setMovies] = useState(data);
   function tambahFilm() {
     const movie = {
-      id: "jksdf",
+      id: nanoid(),
       title: "Spiral Jigsaw",
       year: "2021",
       type: "Movie",
